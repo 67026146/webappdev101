@@ -1,1 +1,108 @@
-Hello
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEM KUMM ร้านสลัดโรล</title>
+  <style>
+    body {
+      font-family: 'Prompt', sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #ffa07a;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero img {
+      width: 300px;
+      border-radius: 20px;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin: 15px;
+      width: 250px;
+      text-align: center;
+      padding: 15px;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+    }
+    button {
+      background-color: #ffa07a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #ffe4c4;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TEM KUMM สลัดโรล</h1>
+  <nav>
+    <a href="#home">หน้าแรก</a>
+    <a href="#products">สินค้า</a>
+    <a href="#contact">ติดต่อเรา</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h2>สดใหม่ อร่อย สุขภาพดี</h2>
+  <img src="salad.jpg" alt="สลัดโรล">
+</section>
+
+<section class="products" id="products">
+  <div class="card">
+    <img src="roll1.jpg" alt="สลัดโรล 1">
+    <h3>สลัดโรลคลาสสิค</h3>
+    <p>สดใหม่ทุกคำ</p>
+    <button>สั่งซื้อ</button>
+  </div>
+  <div class="card">
+    <img src="roll2.jpg" alt="สลัดโรล 2">
+    <h3>สลัดโรลรวมมิตร</h3>
+    <p>รวมผักและโปรตีนครบ</p>
+    <button>สั่งซื้อ</button>
+  </div>
+</section>
+
+<footer id="contact">
+  <p>ติดต่อเรา: LINE @TEMKUMM | โทร 099-999-9999</p>
+  <p>&copy; 2025 TEM KUMM</p>
+</footer>
+
+</body>
+</html>
